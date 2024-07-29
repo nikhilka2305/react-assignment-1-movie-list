@@ -1,0 +1,22 @@
+:root {
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: VectorHeavy;
+	src: local("VectorHeavy"), url("./assets/Vector-Heavy.ttf"),
+		format("truetype");
+}
+
+body {
+	background-color: #edc7b7 !important;
+	margin: 0;
+	box-sizing: border-box;
+}
+h1,
+h2 {
+	font-family: "VectorHeavy", sans-serif;
+	letter-spacing: 0.2em;
+}
